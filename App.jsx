@@ -1,12 +1,12 @@
-import { AppProvider, useApp } from './lib/AppContext'
-import { supabase } from './lib/supabase'
-import Auth from './pages/Auth'
-import Home from './pages/Home'
-import Course from './pages/Course'
-import Lesson from './pages/Lesson'
-import Cabinet from './pages/Cabinet'
-import Admin from './pages/Admin'
-import LessonEditor from './pages/LessonEditor'
+import { AppProvider, useApp } from './AppContext.jsx'
+import { supabase } from './supabase.js'
+import Auth from './Auth.jsx'
+import Home from './Home.jsx'
+import Course from './Course.jsx'
+import Lesson from './Lesson.jsx'
+import Cabinet from './Cabinet.jsx'
+import Admin from './Admin.jsx'
+import LessonEditor from './LessonEditor.jsx'
 
 const Splash = () => <div className="min-h-screen grid place-items-center mut">Жүктелуде...</div>
 
